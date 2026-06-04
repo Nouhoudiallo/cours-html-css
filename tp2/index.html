@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP2 HTML</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        .Linkcontainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            padding: 0.8rem;
+            /* text-align: start; */
+        }
+
+        td {
+            padding: 0.8rem;
+        }
+
+        /* thead {
+            background-color: #000;
+            color: #fff;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="Linkcontainer">
+        <a href="catalogue.html">Catalogue</a>
+        <a href="edt.html">Planning</a>
+        <a href="filiere.html">Filiere</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="notes.html">Notes</a>
+    </div>
+
+    <div class="Linkcontainer">
+        <table border="1px">
+            <caption>
+                Facture
+            </caption>
+            <thead>
+                <tr>
+                    <th>Produits</th>
+                    <th>prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Imprimente</th>
+                    <td>300.000 FCFA</td>
+                </tr>
+                <tr>
+                    <th>PC de Bureau</th>
+                    <td>200.000 FCFA</td>
+                </tr>
+                <tr>
+                    <th>PC portable</th>
+                    <td>400.000 FCFA</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Details</th>
+                    <td>Total</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+
+
+    <div class="Linkcontainer">
+        <table border="1px">
+
+            <tr>
+                <td  rowspan="2">Cellule 1</td>
+                <td>Cellule 2</td>
+            </tr>
+
+
+
+            <tr>
+                <!-- <td>Cellule 3</td> -->
+                <td >Cellule 4</td>
+            </tr>
+
+
+
+        </table>
+    </div>
+
+</body>
+
+</html>

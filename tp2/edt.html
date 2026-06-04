@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th scope="row">Horaire</th>
+                <th scope="row">Lundi</th>
+                <th scope="row">Mardi</th>
+                <th scope="row">Mercredi</th>
+                <th scope="row">Jeudi</th>
+                <th scope="row">Vendredi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">08h-10h</th>
+                <td colspan="2">Développement Web (CM)  colspan="2" </td>
+                <td>Base de données </td>
+                <td rowspan="2">Projet tutoré  rowspan="2" </td>
+                <td>Anglais</td>
+            </tr>
+             <tr>
+                <th scope="col">10h-12h</th>
+                <td>Algorithmique </td>
+                <td>BMathématiques  </td>
+                <td>Réseaux  </td>
+                <td>Sport</td>
+            </tr>
+             <tr>
+                <th scope="col">08h-10h</th>
+                <td>TP Web  </td>
+                <td colspan="3">Libre / Révisions  colspan="3" </td>
+                <td>TP Réseaux </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Excercies</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th scope="row">Titre1</th>
+                <th scope="row">Titre2</th>
+                <th scope="row" rowspan="3">Titre3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Cellule Simple</th>
+                <td>Cellule Simple</th>
+                <td colspan="3">Cellule Simple</td>
+            </tr>
+            <tr>
+                <th scope="col" colspan="2">Deux colonnes assemblees</th>
+                <td>Cellule Simple</td>
+            </tr>
+            <tr>
+                <th scope="col">Cellule Simple</th>
+                <td>Cellule Simple</th>
+                <td colspan="3" rowspan="2">Deux lignes assemblees avec alignement verticle en haut</td>
+            </tr>
+            <tr>
+                <th scope="col">Cellule Simple</th>
+                <td>Cellule Simple</th>
+            </tr>
+            <tr>
+                <th scope="col">Cellule Simple</th>
+                <!-- <td>Cellule Simple</th> -->
+                <td colspan="3" rowspan="2">Deux lignes assemblees, deux colonnes assemblees</td>
+            </tr>
+            <tr>
+                <th scope="col">Cellule Simple</th>
+                <!-- <td>Cellule Simple</th> -->
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table border="1">
+  <caption>Planning des taches par équipe</caption>
+  <thead>
+    <tr>
+      <th rowspan="2">Équipes</th>
+      <th colspan="5">janvier</th>
+      <th rowspan="2"></th>
+    </tr>
+    <tr>
+      <th>Lundi</th>
+      <th>Mardi</th>
+      <th>Mercredi</th>
+      <th>Jeudi</th>
+      <th>Vendredi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Équipe1</td>
+      <td colspan="3">tache1</td>
+      <td colspan="2">tache2</td>
+      <td rowspan="2">semaine1</td>
+    </tr>
+    <tr>
+      <td>Équipe2</td>
+      <td colspan="2">tache1</td>
+      <td colspan="3">tache2</td>
+    </tr>
+    <tr>
+      <td>Équipe1</td>
+      <td>tache3</td>
+      <td colspan="3">tache4</td>
+      <td>tache5</td>
+      <td rowspan="2">semaine2</td>
+    </tr>
+    <tr>
+      <td>Équipe2</td>
+      <td colspan="2">tache3</td>
+      <td colspan="3">tache4</td>
+    </tr>
+    <tr>
+      <td>Équipe1</td>
+      <td colspan="2">tache5</td>
+      <td colspan="3">tache6</td>
+      <td rowspan="2">semaine3</td>
+    </tr>
+    <tr>
+      <td>Équipe2</td>
+      <td>tache5</td>
+      <td colspan="4">tache6</td>
+    </tr>
+    <tr>
+      <td>Équipe1</td>
+      <td colspan="3">tache7</td>
+      <td colspan="2">tache8</td>
+      <td rowspan="2">semaine4</td>
+    </tr>
+    <tr>
+      <td>Équipe2</td>
+      <td colspan="2">Tache7</td>
+      <td colspan="3">tache8</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
