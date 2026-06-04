@@ -1,114 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TP2 HTML</title>
-
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 4rem;
-        }
-
-        .Linkcontainer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            width: 100%;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        th {
-            padding: 0.8rem;
-            /* text-align: start; */
-        }
-
-        td {
-            padding: 0.8rem;
-        }
-
-        /* thead {
-            background-color: #000;
-            color: #fff;
-        } */
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première page web</title>
 </head>
-
 <body>
-    <div class="Linkcontainer">
-        <a href="catalogue.html">Catalogue</a>
-        <a href="edt.html">Planning</a>
-        <a href="filiere.html">Filiere</a>
-        <a href="galerie.html">Galerie</a>
-        <a href="notes.html">Notes</a>
-    </div>
 
-    <div class="Linkcontainer">
-        <table border="1px">
-            <caption>
-                Facture
-            </caption>
-            <thead>
-                <tr>
-                    <th>Produits</th>
-                    <th>prix</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Imprimente</th>
-                    <td>300.000 FCFA</td>
-                </tr>
-                <tr>
-                    <th>PC de Bureau</th>
-                    <td>200.000 FCFA</td>
-                </tr>
-                <tr>
-                    <th>PC portable</th>
-                    <td>400.000 FCFA</td>
-                </tr>
-            </tbody>
+    <!-- Navigation (exercice 2C) -->
+    <nav>
+        <a href="index.html">Accueil</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="pages/projets.html">Projets</a>
+    </nav>
 
-            <tfoot>
-                <tr>
-                    <th>Details</th>
-                    <td>Total</td>
-                </tr>
-            </tfoot>
+    <h1>Bienvenue sur ma première page !</h1>
+    <p>Je suis en train d'apprendre le HTML.</p>
 
-        </table>
-    </div>
+    <!-- Exercice 1B -->
+    <h2>Jean Dupont</h2>
+    <h3>Informatique – Développement Web</h3>
+    <p>
+        Je suis un étudiant passionné par les nouvelles technologies. 
+        J'aime créer des sites web et découvrir de nouveaux langages. 
+        Mon objectif est de devenir développeur full-stack.
+    </p>
+    <hr>
+    <p>
+        Un texte avec <strong>une importance forte</strong>, 
+        une <em>emphase</em> et un mot <mark>surligné</mark>.
+    </p>
 
+    <!-- Exercice 1C -->
+    <h2>Matières préférées</h2>
+    <ul>
+        <li>Programmation Web</li>
+        <li>Base de données</li>
+        <li>Réseaux</li>
+        <li>Algorithmique</li>
+    </ul>
 
-    <div class="Linkcontainer">
-        <table border="1px">
+    <h2>Étapes pour ouvrir un fichier HTML</h2>
+    <ol>
+        <li>Créer un fichier avec l'extension .html</li>
+        <li>Écrire le code HTML souhaité</li>
+        <li>Double-cliquer sur le fichier ou le glisser dans le navigateur</li>
+    </ol>
 
-            <tr>
-                <td  rowspan="2">Cellule 1</td>
-                <td>Cellule 2</td>
-            </tr>
-
-
-
-            <tr>
-                <!-- <td>Cellule 3</td> -->
-                <td >Cellule 4</td>
-            </tr>
-
-
-
-        </table>
-    </div>
+    <!-- Exercice 3A : Ressources utiles -->
+    <h2>Ressources utiles</h2>
+    <ul>
+        <li>
+            <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">
+                MDN Web Docs (référence HTML/CSS/JS)
+            </a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">
+                W3Schools (tutoriels interactifs)
+            </a>
+        </li>
+        <li>
+            <a href="https://validator.w3.org" target="_blank" rel="noopener noreferrer">
+                Validateur HTML du W3C
+            </a>
+        </li>
+    </ul>
 
 </body>
-
 </html>
