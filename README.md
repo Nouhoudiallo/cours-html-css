@@ -9,7 +9,8 @@
 
 | Dossier | Sujet |
 | --------- | ------------------------------------------ |
-| `tp2/` | Images HTML & Tableaux |
+| `tp1/` | Images HTML & Tableaux |
+| `tp2/` | Catalogue form & galerie |
 
 Chaque sous-dossier contient les fichiers HTML du TP correspondant.
 
