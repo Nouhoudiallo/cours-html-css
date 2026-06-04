@@ -12,3 +12,6 @@
 | `tp2/` | Images HTML & Tableaux |
 
 Chaque sous-dossier contient les fichiers HTML du TP correspondant.
+
+<a href="https://nouhoudiallo.github.io/cours-html-css/tp1">TP1_HTML</a>
+<a href="https://nouhoudiallo.github.io/cours-html-css/tp2">TP2_HTML</a>
